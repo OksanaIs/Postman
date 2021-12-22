@@ -24,8 +24,8 @@ Resp.
 {'start_qa_salary':salary,
  'qa_salary_after_6_months': salary * 2,
  'qa_salary_after_12_months': salary * 2.9,
- 'person': {'u_name':[user_name, salary, age],
-                                'u_age':age,
+ 'person': {'u_name': [user_name, salary, age],
+                                'u_age': age,
                                 'u_salary_1.5_year': salary * 4}
 }
 ```
@@ -48,7 +48,8 @@ auth_token
 Resp.
 {'name':name,
   'age': int(age),
-  'salary': [salary, str(salary*2), str(salary*3)]}
+  'salary': [salary, str(salary*2), str(salary*3)]
+}
 ```
 Tests:
 1) Status code 200
@@ -70,7 +71,8 @@ Resp.
 {'name': name,
  'age': age,
  'daily_food':weight * 0.012,
- 'daily_sleep': weight * 2.5}
+ 'daily_sleep': weight * 2.5
+}
 ```
 Tests:
 1) Status code 200
@@ -91,9 +93,10 @@ Resp.
 {'name': name,
  'age':age,
  'salary': salary,
- 'family':{'children':[['Alex', 24],['Kate', 12]],
+ 'family': {
+ 'children':[['Alex', 24],['Kate', 12]],
  'u_salary_1.5_year': salary * 4}
-  }
+}
 ```
 Tests:
 1) Status code 200
