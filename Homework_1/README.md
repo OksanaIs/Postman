@@ -1,4 +1,4 @@
-## HW Task_2 Postman
+## HW Task_1 Postman
 #### Create queries in Postman
 
 Protocol: http
