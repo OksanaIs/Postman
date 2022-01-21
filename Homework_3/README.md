@@ -1,4 +1,4 @@
-### HW Task_2 Postman
+### HW Task_3 Postman
 
 #### 1. Login required
 POST
